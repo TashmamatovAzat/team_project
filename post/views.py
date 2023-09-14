@@ -5,7 +5,7 @@ from .serializers import PostSerializer
 
 
 class PostViewSet(ModelViewSet):
-    queryset = Post.objects.all()
+    queryset = Post.objects.all()git
     serializer_class = PostSerializer
 
     def perform_create(self, serializer):
